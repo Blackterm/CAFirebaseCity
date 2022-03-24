@@ -88,7 +88,7 @@ class _AddCityViewState extends ViewState<AddCityView, AddCityController> {
                       ),
                       child: TextFormField(
                         //obscureText: true,
-                        keyboardType: TextInputType.visiblePassword,
+                        keyboardType: TextInputType.text,
                         onChanged: (value) =>
                             {controller.onContentChanged(value)},
                         decoration: const InputDecoration(
