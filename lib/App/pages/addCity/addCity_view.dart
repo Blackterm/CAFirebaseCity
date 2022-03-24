@@ -60,7 +60,7 @@ class _AddCityViewState extends ViewState<AddCityView, AddCityController> {
                         ],
                       ),
                       child: TextFormField(
-                        keyboardType: TextInputType.emailAddress,
+                        keyboardType: TextInputType.text,
                         onChanged: (value) =>
                             {controller.onCityNameChanged(value)},
                         decoration: const InputDecoration(
@@ -115,7 +115,7 @@ class _AddCityViewState extends ViewState<AddCityView, AddCityController> {
                         ],
                       ),
                       child: TextFormField(
-                        keyboardType: TextInputType.emailAddress,
+                        keyboardType: TextInputType.text,
                         onChanged: (value) =>
                             {controller.onImageUrlChanged(value)},
                         decoration: const InputDecoration(
