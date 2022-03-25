@@ -33,6 +33,7 @@ class _CityDetailViewState
         builder: (context, controller) {
           return SafeArea(
             child: Scaffold(
+              backgroundColor: Colors.white,
               body: SingleChildScrollView(
                 child: Column(
                   children: [
