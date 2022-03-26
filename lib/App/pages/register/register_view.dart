@@ -33,15 +33,12 @@ class _RegisterViewState extends ViewState<RegisterView, RegisterController> {
                       height: 30,
                     ),
                     Container(
-                      margin: EdgeInsets.only(
-                        top: 52,
-                        left: 24,
-                        right: 18,
-                      ),
-                      child: Image(
-                          image: NetworkImage(
-                              "https://s3-alpha-sig.figma.com/img/4bbe/6cfc/8b54021292fe48bf1fd630972d01258e?Expires=1648425600&Signature=EIb61Bh4pkbCGKkZ8BiJ~41wWfJWAG-YfnauvtUTRMBNTMS1r5dPmVkL9QajP1YvvhQvSb97h4p0nFlsqnbevbv4seX2B6AbiHW2GWIaThIw21KXsHErpaOMvRd2KshrRDLHiL5NPF1tL6k20ZDYP7H-FdkooOFUNRKMtW6CJgLL0VLYwL13iYwY0MVzlRTEoN0dOgRBhiTq7P1xSBMMAeEnJEZwOW8Is4W-hn1CurfNq2V7QmCKxcYYNB7M0c4soGTRB0kf8RJ-p4XIFw3tQjJsmfPnqMBLSQYER-hb78feiITcTXSmO~HF~SM3ecaM6pxnkNsg-Y3psV~uKBkpcQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA")),
-                    ),
+                        margin: EdgeInsets.only(
+                          top: 52,
+                          left: 24,
+                          right: 18,
+                        ),
+                        child: Image.asset("assets/image/Login-image.png")),
                     SizedBox(
                       height: 35,
                     ),
