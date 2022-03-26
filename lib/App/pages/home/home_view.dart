@@ -1,6 +1,5 @@
 import 'package:ca_firebase_app/App/pages/addCity/addCity_view.dart';
 import 'package:ca_firebase_app/App/pages/cityDetail/cityDetail_view.dart';
-
 import 'package:ca_firebase_app/App/pages/home/home_controller.dart';
 import 'package:ca_firebase_app/Domain/entities/city.dart';
 import 'package:flutter/material.dart';
@@ -126,7 +125,7 @@ class _HomeCityCard extends StatelessWidget {
             height: 15,
           ),
           Container(
-            width: 338,
+            width: size.width - 36,
             height: 250,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -141,15 +140,20 @@ class _HomeCityCard extends StatelessWidget {
             ),
             child: Column(children: [
               Padding(
-                padding: const EdgeInsets.only(
+                padding: EdgeInsets.only(
                   top: 18,
                   left: 19,
                   right: 15,
                 ),
                 child: Container(
-                  width: 304,
-                  height: 159,
+                  width: 330,
+                  height: 165,
                   decoration: BoxDecoration(
+                    image: DecorationImage(
+                        fit: BoxFit.fill,
+                        image: NetworkImage(
+                          city.imageUrl,
+                        )),
                     borderRadius: BorderRadius.all(Radius.circular(8)),
                     color: Colors.white,
                     boxShadow: [
@@ -161,17 +165,18 @@ class _HomeCityCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image(
-                    image: NetworkImage(city.imageUrl),
-                  ),
+                  // child: Image(
+
+                  //   image: NetworkImage(city.imageUrl,),
+                  // ),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(top: 29),
+                padding: const EdgeInsets.only(top: 19),
                 child: Row(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(left: 19),
+                      padding: const EdgeInsets.only(left: 26),
                       child: Text(
                         city.cityName,
                         style: TextStyle(

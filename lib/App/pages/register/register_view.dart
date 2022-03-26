@@ -1,4 +1,3 @@
-import 'package:ca_firebase_app/App/pages/login/login_view.dart';
 import 'package:ca_firebase_app/App/pages/register/register_contoller.dart';
 import 'package:ca_firebase_app/Data/repositories/data_user_repository.dart';
 import 'package:flutter/material.dart';
@@ -116,7 +115,7 @@ class _RegisterViewState extends ViewState<RegisterView, RegisterController> {
                         ],
                       ),
                       child: TextFormField(
-                        keyboardType: TextInputType.emailAddress,
+                        keyboardType: TextInputType.name,
                         onChanged: (value) =>
                             {controller.onFirstNameTextChanged(value)},
                         decoration: const InputDecoration(
@@ -143,7 +142,7 @@ class _RegisterViewState extends ViewState<RegisterView, RegisterController> {
                         ],
                       ),
                       child: TextFormField(
-                        keyboardType: TextInputType.emailAddress,
+                        keyboardType: TextInputType.name,
                         onChanged: (value) =>
                             {controller.onLastNameChanged(value)},
                         decoration: const InputDecoration(

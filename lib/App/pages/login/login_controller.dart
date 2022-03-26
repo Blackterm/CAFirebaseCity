@@ -1,6 +1,4 @@
 import 'package:ca_firebase_app/App/pages/home/home_view.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clean_architecture/flutter_clean_architecture.dart';
 import 'package:lottie/lottie.dart';
@@ -15,7 +13,7 @@ class LoginController extends Controller {
 
   String? email;
   String? password;
-  //Test için direkt sayfaya geçiş
+  // Test için direkt sayfaya geçiş
   // @override
   // void onInitState() {
   //   FirebaseAuth.instance.authStateChanges().listen((User? user) {

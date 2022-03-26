@@ -1,6 +1,4 @@
 import 'package:flutter_clean_architecture/flutter_clean_architecture.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-
 import '../../../Domain/repositories/user_repository.dart';
 import '../../../Domain/usecases/sign_in_with_email.dart';
 
