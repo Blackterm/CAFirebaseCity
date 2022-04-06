@@ -130,7 +130,7 @@ class _LoginViewState extends ViewState<LoginView, LoginController> {
                   ),
                   Padding(
                     padding: const EdgeInsets.only(
-                      left: 60,
+                      left: 40,
                     ),
                     child: Row(
                       children: [

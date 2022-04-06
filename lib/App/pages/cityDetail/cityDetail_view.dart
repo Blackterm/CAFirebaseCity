@@ -110,8 +110,8 @@ class _CityDetailViewState
                           Column(
                             children: [
                               Container(
-                                width: 390,
-                                height: 250,
+                                width: size.width - 30,
+                                height: size.height / 3 - 2,
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
@@ -132,7 +132,7 @@ class _CityDetailViewState
                                 height: 20,
                               ),
                               Container(
-                                width: 390,
+                                width: size.width - 30,
                                 child: Text(
                                   widget._city.content,
                                   style: TextStyle(fontWeight: FontWeight.w500),

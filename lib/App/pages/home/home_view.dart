@@ -57,7 +57,7 @@ class _HomeViewState extends ViewState<HomeView, HomeController> {
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 150),
+                            padding: const EdgeInsets.only(left: 130),
                             child: Text(
                               "Firebase App",
                               style: TextStyle(
