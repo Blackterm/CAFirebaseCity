@@ -1,16 +1,16 @@
-# ca_firebase_app
+# Clean architecture-Firabase
 
-A new Flutter project.
+**Giriş ekranı**
+![Image of LoginPage](https://github.com/Blackterm/CAFirebaseCity/blob/master/images/Screenshot_1648313312.png)
+**Kayıt ekranı**
+![Image of RegisterPage](https://github.com/Blackterm/CAFirebaseCity/blob/master/images/Screenshot_1648313874.png)
+**Anasayfa ekranı**
+![Image of HomePage](https://github.com/Blackterm/CAFirebaseCity/blob/master/images/Screenshot_1648313332.png)
+**Şehir ekleme ekranı**
+![Image of AddCityPage](https://github.com/Blackterm/CAFirebaseCity/blob/master/images/Screenshot_1648313342.png)
+**Şehir detay ekranı**
+![Image of CityDetailPage](https://github.com/Blackterm/CAFirebaseCity/blob/master/images/Screenshot_1648313359.png)
+**Hata ekranı**
+![Image of ErrorPage](https://github.com/Blackterm/CAFirebaseCity/blob/master/images/Screenshot_1648313491.png)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
