@@ -83,7 +83,8 @@ class _HomeViewState extends ViewState<HomeView, HomeController> {
                       children: [
                         ControlledWidgetBuilder<HomeController>(
                           builder: (context, controller) {
-                            return controller.cities != null
+                            return controller.cities != null &&
+                                    controller.cities!.length != 0
                                 ? Column(
                                     children: [
                                       for (int i = 0;
